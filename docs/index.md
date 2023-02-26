@@ -13,7 +13,7 @@ hero:
   actions:
     - theme: brand
       text: About the Club
-      link: ./
+      link: about
     - theme: alt
       text: 2023 Info
       link: 2023/
