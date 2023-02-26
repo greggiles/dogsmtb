@@ -9,6 +9,6 @@ Goal - Build Site, Build Container, deploy w/ Auth
 1. `npm install`
 1. `npm run dev` while local testing
 
-## To-Do
+## Publishing
 
-Auto publish
+This repo is setup as a project on vercel to automatically deploy, with linked domain of https://dogsmtb.com
