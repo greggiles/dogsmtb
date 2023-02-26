@@ -17,6 +17,11 @@ export default {
       ],
       sidebar: [
         {
+          text: '2021',
+          collapsed: true,
+          link: '2021/',
+        },
+        {
           text: '2022',
           collapsed: true,
           link: '2022/',
