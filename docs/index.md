@@ -18,14 +18,16 @@ hero:
       text: 2023 Info
       link: 2023/
 features:
-  - icon: fa-bike
-    title: Notes on Hardware
-    details: Documentation and notes on different hardware used in our AGVs
-  - icon: 📀
-    title: Notes on Software
-    details: Navigation Solutions and Tools used to get systems made
+  - icon: 
+      src: /311002.svg
+    title: Mountain Bikes
+    details: We ride & race mountain bikes on non-linear dirt trails
+  - icon: 
+      src: /graduation-student-icon.svg
+    title: K-12 Students
+    details: We focus on the student athelete
   - icon: 🏁
     title: Startup and Finish
-    details: Commisioning and Startup Instruction
+    details: WIP ...
 ---
 
