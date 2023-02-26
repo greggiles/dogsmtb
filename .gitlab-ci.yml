@@ -1,0 +1,37 @@
+include:
+  - project: redviking/templates/ci-templates
+    ref: master
+    file: modular.gitlab-ci.yaml
+  - project: redviking/templates/ci-templates
+    ref: master
+    file: modular/docker-buildkit.gitlab-ci.yaml
+  - project: redviking/templates/ci-templates
+    ref: master
+    file: digital-ocean.gitlab-ci.yaml
+
+stages:
+  - build
+  - deploy
+
+build:
+  extends:
+    - .modular-docker-buildkit
+  tags: [civ3]
+  stage: build
+  image: node:16.19-alpine3.17
+  variables:
+    MODULAR_DOCKER_BUILDKIT_CLI_VERSION: docker-cli-20.10.16
+  script:
+    - apk add bash docker-cli
+    - npm ci
+    - npm run build
+    - docker login -u "$DOCKER_DEPLOY_USER" -p "$DOCKER_DEPLOY_PUSH_PASS" "registry.gitlab.com"
+    - docker build -t registry.gitlab.com/redviking/agv-pd/rv-agv-documentation:latest .
+    - docker push registry.gitlab.com/redviking/agv-pd/rv-agv-documentation:latest
+deploy:
+  stage: deploy
+  image: alpine/doctl:1.22.2
+  script:
+    - doctl auth init -t "$DOCTL_AUTH_INIT_TOKEN"
+    - doctl kubernetes cluster kubeconfig save k8s-danacloud
+    - kubectl --namespace agv-doc rollout restart deploy agv-doc

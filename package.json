@@ -1,0 +1,33 @@
+{
+  "name": "rv-agv-documentation",
+  "version": "1.0.0",
+  "description": "Test Doc Site",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vitepress dev",
+    "build": "vitepress build",
+    "preview": "vitepress preview",
+    "docker-build": "docker build -t registry.gitlab.com/redviking/agv-pd/rv-agv-documentation .",
+    "docker-push": "docker push registry.gitlab.com/redviking/agv-pd/rv-agv-documentation"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/redviking/agv-pd/rv-agv-documentation.git"
+  },
+  "author": "",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://gitlab.com/redviking/agv-pd/rv-agv-documentation/issues"
+  },
+  "homepage": "https://gitlab.com/redviking/agv-pd/rv-agv-documentation#readme",
+  "devDependencies": {
+    "flexsearch": "^0.7.31",
+    "markdown-it": "^13.0.1",
+    "vitepress": "^1.0.0-alpha.46",
+    "vitepress-plugin-search": "^1.0.4-alpha.19",
+    "vue": "^3.2.47"
+  },
+  "dependencies": {
+    "vue3-youtube": "^0.1.9"
+  }
+}
