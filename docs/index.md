@@ -6,9 +6,9 @@ hero:
   tagline: All about the Brighton Area Schools Mountain Bike Team
   image:
     dark:
-      src: /logo.png
+      src: /brighton_cycling_white.png
     light:
-      src: /logo1.png
+      src: /brighton_cycling_black.png
     alt: RedViking Logo
   actions:
     - theme: brand
