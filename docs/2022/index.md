@@ -46,6 +46,7 @@ const captains = [
   {
     avatar: '/riders/brendan-giles_2022.jpg',
     name: 'Brendan Giles',
+    desc: “Just gonna send it🤙",
     title: 'Junior',
     links: [
       { icon: 'instagram', link: 'https://www.instagram.com/great_brendini/' },
