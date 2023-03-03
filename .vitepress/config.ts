@@ -18,31 +18,37 @@ export default {
       sidebar: [
         {
           text: 'About Us',
-          collapsed: true,
           link: 'about'
         },
         {
-          text: '2021',
-          collapsed: true,
-          items: [
-            { text: 'About', link: '2021/'}
-          ]
-        },
-        {
-          text: '2022',
-          collapsed: true,
-          items: [
-            { text: 'About', link: '2022/'},
-            { text: 'Photos', link: '2022/photos'},
-          ]
+          text: 'Local Shops',
+          link: 'local-shops'
         },
         {
           text: '2023',
           collapsed: false,
           link: '2023/',
           items: [
+            { text: 'Overview', link: '2023/'},
             { text: 'Important Dates', link: '/2023/important_dates' },
             { text: 'Kickoff Meeting', link: '/2023/kickoff'},
+          ]
+        },
+        {
+          text: '2022',
+          collapsed: true,
+          items: [
+            { text: 'Overview', link: '2022/'},
+            { text: 'Captains', link: '2022/captains'},
+            { text: 'Coaches', link: '2022/coaches'},
+            { text: 'Photos', link: '2022/photos'},
+          ]
+        },
+        {
+          text: '2021',
+          collapsed: true,
+          items: [
+            { text: 'Overview', link: '2021/'}
           ]
         },
 

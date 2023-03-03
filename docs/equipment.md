@@ -1,36 +1,36 @@
-# Required Equipment and Notes
+## Required Equipment
 
 We ride our bikes off road, on non-linear dirt trails. We ride all summer when it is warm or hot. We ride into the Fall when it can be much cooler. It is important for riders to be prepared for our rides.  
 
-## Helmet
+### Helmet, Gloves, Eye Protection
 
 First and foremost, our riders are required to wear a helmet whenever they are on thier bike. 
 
-::: info No Exceptions
+::: danger No Exception to Helmet Rule
 There are no exceptions to the helmet rule. All riders MUST comply or be suspended from the team. 
 :::
 
-## Hydration
+### Hydration
 
 All riders are required to come prepared with water for our rides. Options include water bottles, camelbacks, or even bottled water in a backpack. 
 
-## Eye Protection
+### Eye Protection
 
 Since we ride on trails, there can be vegitation hanging over the trail, and sometimes dust and pebbles are kicked up while riders are riding. Eye protection is **strongly** encouraged for all riders. 
 
 Options for eye protection can vary from $2 safety glasses from the Home Depot, to $200 Oakley shades. All options are acceptable!
 
-## Gloves
+### Gloves
 
 Riders should wear gloves to protect their hands in case of a tumble. Gloves also help maintain grip when riders sweat or it is rainy.
 
-## A Mountain Bike
+### A Mountain Bike
 
 Bikes aren't listed first, becuase the other items are just as important! 
 
 Bikes must be trail ready, and shouldn't have a kickstand. 
 
-::: info Kickstand's Must be Removed
+::: danger Kickstand's Must be Removed
 Kickstands may be convienient when storing bikes in the garage, however, they can act like a catapault if they extend accidentally while riding
 :::
 
