@@ -4,7 +4,7 @@ layout: page
 <VPTeamPage>
   <VPTeamPageTitle>
     <template #title>
-      2022 Coaches
+      2023 Coaches
     </template>
     <template #lead>
       Our Brave Coaches, bringing order to an otherwise unorderly ordeal.

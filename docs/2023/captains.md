@@ -4,7 +4,7 @@ layout: page
 <VPTeamPage>
   <VPTeamPageTitle>
     <template #title>
-      2022 Captains
+      2023 Captains
     </template>
     <template #lead>
       Our Fearless Teamleaders who brought home the ninth consecutive state championship!
