@@ -29,7 +29,7 @@ const captains = [
     name: 'Hunter Bell',
     title: 'Senior',
     // org: 'Highschool Captains',
-    desc: '\"Super Speedy\"',
+    desc: '\"Very inspiring quote goes here\"',
     links: [
       { icon: 'instagram', link: 'https://www.instagram.com/hunterbell_mtb/' },
     ],
