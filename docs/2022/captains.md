@@ -34,7 +34,7 @@ const captains = [
     name: 'Hunter Bell',
     title: 'Senior',
     // org: 'Highschool Captains',
-    desc: '\"Very inspiring quote goes here\"',
+    desc: '\"DON\'T. GO. SLOW!!!\"',
     links: [
       { icon: 'instagram', link: 'https://www.instagram.com/hunterbell_mtb/' },
     ],
