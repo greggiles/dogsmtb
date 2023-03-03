@@ -2,7 +2,10 @@
 
 Welcome to the 2023 Brighton Mountain Biking Team!
 
-<a data-v-72cc4481="" data-v-2dba8ca9=""  class="VPButton medium brand" href="/important_dates">Important Dates</a><a data-v-72cc4481="" data-v-2dba8ca9=""  class="VPButton medium brand" href="/important_dates">Important Dates</a>
+<a href="./important_dates">
+    <Badge type="info" size='large'>custom element</Badge>
+</a>
+<a data-v-72cc4481="" data-v-2dba8ca9=""  class="VPButton medium brand" href="/important_dates">Important Dates</a>
 
 ## Registration
 

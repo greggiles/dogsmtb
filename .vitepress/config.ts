@@ -5,8 +5,8 @@ export default {
     cleanUrls: true,
     themeConfig: {
       editLink: {
-        pattern: 'https://github.com/greggiles/dogsmtb',
-        text: 'Edit this page on GitHub'
+        pattern: 'https://github.com/greggiles/dogsmtb/edit/main/docs/:path',
+        text: 'Edit on GitHub'
       },
       nav: [
         { text: 'MiSCA', link: 'https://miscabike.org/' },
