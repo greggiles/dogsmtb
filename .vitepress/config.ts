@@ -31,6 +31,8 @@ export default {
           items: [
             { text: 'Overview', link: '2023/'},
             { text: 'Important Dates', link: '/2023/important_dates' },
+            { text: 'Captains', link: '2023/captains'},
+            { text: 'Coaches', link: '2023/coaches'},
             { text: 'Kickoff Meeting', link: '/2023/kickoff'},
           ]
         },
