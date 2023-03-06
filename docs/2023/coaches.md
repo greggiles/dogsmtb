@@ -41,5 +41,6 @@ const coaches = [
       
     ]
   },
-]
+
+  ]
 </script>

@@ -47,7 +47,7 @@ const captains = [
     ]
   },
   {
-    // avatar: '/riders/liberty-abington_2022.png',
+    avatar: '/riders/holden-adams_2023.png',
     name: 'Holden Adams',
     title: 'Senior',
     links: [
@@ -55,7 +55,7 @@ const captains = [
     ]
   },
   {
-    // avatar: '/riders/jude-osterman_2022.png',
+    avatar: '/riders/adam-govan_2023.png',
     name: 'Adam Govan',
     title: 'Junior',
     links: [
@@ -71,7 +71,7 @@ const captains = [
     ]
   },
   {
-    // avatar: '/riders/anna-giles_2022.jpg',
+    avatar: '/riders/max-andrews_2023.jpg',
     name: 'Max Andrews',
     title: 'Sophomore',
     links: [
@@ -98,12 +98,13 @@ const captains = [
     avatar: '/riders/parker-vince_2022.png',
     name: 'Parker Vince',
     title: '8th Grade',
+    desc: '\"Make everything a jump!!!\"',
     links: [
     //   { icon: 'instagram', link: 'https://www.instagram.com/ferdagirl09/' },
     ]
   },
   {
-    avatar: '/riders/olivia-pobocik_2022.png',
+    avatar: '/riders/olivia-pobocik_2023.jpg',
     name: 'Olivia Pobocik',
     title: '7th Grade',
     links: [
