@@ -58,6 +58,7 @@ const captains = [
     avatar: '/riders/adam-govan_2023.png',
     name: 'Adam Govan',
     title: 'Junior',
+    desc: '\"Start where you are. Use what you have. Do what you can.\" —Arthur Ashe',
     links: [
       // { icon: 'instagram', link: 'https://www.instagram.com/jude.osterman/' },
     ]
