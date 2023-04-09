@@ -21,13 +21,14 @@ features:
   - icon: 
       src: /311002.svg
     title: Mountain Bikes
-    details: We ride & race mountain bikes on non-linear dirt trails
+    details: We ride & race mountain bikes
   - icon: 
       src: /graduation-student-icon.svg
     title: K-12 Students
     details: We focus on the student athelete
-  - icon: 🏁
-    title: Startup and Finish
-    details: WIP ...
+  - icon: 
+      src: /trail.svg
+    title: Awesome Trails in the Woods
+    details: We ride & race on non-linear dirt trails
 ---
 
