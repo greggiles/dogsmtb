@@ -12,12 +12,11 @@ const vuetify = createVuetify({components, directives})
 
 export default {
     ...DefaultTheme,
-    enhanceApp(ctx){
-        DefaultTheme.enhanceApp(ctx)
-        ctx.app.component('pdfLink', pdfLink)
-        ctx.app.component('YouTube', YouTube)
-    },
     enhanceApp({app}) {
+        // DefaultTheme.enhanceApp(ctx)
         app.use(vuetify)
+        app.component('YouTube', YouTube)
+        app.component('pdfLink', pdfLink)
+
   }
 }

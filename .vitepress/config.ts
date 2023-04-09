@@ -11,16 +11,6 @@ export default defineConfig({
       noExternal: ["vuetify"]
     }
   },
-// })
-
-// export default defineUserConfig ({
-//   bundler: viteBundler({
-//     viteOptions: {
-//       ssr: {
-//         noExternal: ['vuetify']
-//       }
-//     }
-//   }),
   title: 'Brighton Bulldogs',
   description: 'Mountain Bike Team.',
   srcDir: './docs',
@@ -52,10 +42,10 @@ export default defineConfig({
         link: '2023/',
         items: [
           { text: 'Overview', link: '2023/'},
+          { text: 'Kickoff Meeting', link: '/2023/kickoff'},
           { text: 'Important Dates', link: '/2023/important_dates' },
           { text: 'Captains', link: '2023/captains'},
           { text: 'Coaches', link: '2023/coaches'},
-          { text: 'Kickoff Meeting', link: '/2023/kickoff'},
         ]
       },
       {
