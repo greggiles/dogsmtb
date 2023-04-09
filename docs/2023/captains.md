@@ -49,6 +49,7 @@ const captains = [
   {
     avatar: '/riders/holden-adams_2023.png',
     name: 'Holden Adams',
+    desc: '\"I only stop for Turtles\"',
     title: 'Senior',
     links: [
       // { icon: 'instagram', link: 'https://www.instagram.com/abliberty/' },
