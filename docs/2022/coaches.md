@@ -18,12 +18,12 @@ layout: page
     show-arrows="hover"
     >
   <v-carousel-item
-    src="/public/2022/coaches/coaches.jpg"
+    src="/2022/coaches/coaches.jpg"
     cover
   ></v-carousel-item>
 
   <v-carousel-item
-    src="/public/2022/coaches/ilra.jpg"
+    src="/2022/coaches/ilra.jpg"
     cover
   ></v-carousel-item>
 
