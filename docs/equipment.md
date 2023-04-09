@@ -26,12 +26,12 @@ Riders should wear gloves to protect their hands in case of a tumble. Gloves als
 
 ### A Mountain Bike
 
-Bikes aren't listed first, becuase the other items are just as important! 
+Bikes aren't listed first, because the other items are just as important! 
 
 Bikes must be trail ready, and shouldn't have a kickstand. 
 
 ::: danger Kickstand's Must be Removed
-Kickstands may be convienient when storing bikes in the garage, however, they can act like a catapault if they extend accidentally while riding
+Kickstands may be convienient when storing bikes in the garage, however, they pose a threat on the trail. They can act like a catapault if they extend while riding
 :::
 
 Being trail-ready helps our rides go smoothly, and allows for our coaches to attend to leading good rides instead of doing unnesseary trailside repairs. Trail ready means at least the following:

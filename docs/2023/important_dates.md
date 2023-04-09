@@ -12,7 +12,7 @@ From our team Google Calendar
   * April 14: First Day to order team Kit!
   * April 28: Last Day to order team Kit (order round 1)!
 * May
-  * May 16: First Day of Practice!
+  * May 23: First Day of Practice!
 * June
 * July
 * August
