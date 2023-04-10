@@ -1,6 +1,14 @@
 # 2023 Kickoff Meeting
 
-Join us on April 13th at Brighton High School to kick off the 2023 Season!
+Join us Thursday, April 13th at 6PM at Brighton High School, in the Media Room to kick off the 2023 Season!
+
+- Meet (some of) the coaches
+- Meet (some of) the captains
+- Discuss the season, what the club is about, and our practice / race schedule
+- Open questions and discussion
+- Strongly encouraged to attend for new riders
+
+The slides reviewed at the meeting are posted below, but please try to attend if you're new to the team or considering joining!
 
 <v-btn href='https://fb.me/e/2vizshZpY'>Facebook Event Details</v-btn>
 
