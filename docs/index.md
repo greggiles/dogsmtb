@@ -21,14 +21,14 @@ features:
   - icon: 
       src: /311002.svg
     title: Mountain Bikes
-    details: We ride & race mountain bikes
+    details: We a team focused on riding & racing mountain bikes
   - icon: 
       src: /graduation-student-icon.svg
     title: K-12 Students
-    details: We focus on the student athelete
+    details: We support student atheletes in Brighton and surrounding communities
   - icon: 
       src: /trail.svg
     title: Awesome Trails in the Woods
-    details: We ride & race on non-linear dirt trails
+    details: We enjoy fun dirt trails through the woods, over rocks and roots!
 ---
 
