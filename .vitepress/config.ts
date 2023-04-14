@@ -22,6 +22,7 @@ export default defineConfig({
     },
     nav: [
       { text: 'MiSCA', link: 'https://miscabike.org/' },
+      { text: 'Slack', link: 'https://join.slack.com/t/brightoncyclingclub/shared_invite/zt-1sflc7k1y-lbnVM7vTVqlpGs3AbDWNXA' },
       { text: 'FaceBook', link: 'https://facebook.com/brightoncyclingdogs' },
       { text: 'Insta', link: 'https://www.instagram.com/brightoncycling/'},
       { text: 'Brighton K12', link: 'https://www.brightonk12.com/' },
