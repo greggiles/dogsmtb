@@ -12,16 +12,19 @@ hero:
     alt: RedViking Logo
   actions:
     - theme: brand
-      text: About the Club
+      text: About
       link: about
     - theme: alt
-      text: 2023 Info
+      text: 2023 Season
       link: 2023/
     - theme: alt
-      text: 2023 Reg
+      text: Kit Store
+      link: https://teamstore.ascendsportswear.com/store/brighton-cycling/
+    - theme: alt
+      text: Registation
       link: https://ccnbikes.com/#!/events/brighton-area-schools-2023
     - theme: alt
-      text: 2023 Mail List
+      text: Mailing List
       link: https://80fb9a7c.sibforms.com/serve/MUIEAFTKJuKJuOKf8pUtc24hhseqmUWJu4u--cLItdV4EqHB_vqhxCbVxpBEYkW8n0ztdAWrft4TZRzJk9vw3GfNdgOB8eO7Ny3XR5v4Uh18Vbx9jkozKSTc0_ANn6grxFNVCpwK4NTHsfvwGSLRcDt1DebW4ETn2V_p1Aceqgvbe8vCz3a8uC0IHPq-UlRoyUIJn7isBM29Y2nF
 features:
   - icon: 

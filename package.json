@@ -12,10 +12,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@gitlab.com/redviking/agv-pd/rv-agv-documentation.git"
+    "url": "https://github.com/greggiles/dogsmtb.git"
   },
-  "author": "",
-  "license": "UNLICENSED",
+  "author": "Greg Giles",
+  "license": "MIT",
   "bugs": {
     "url": "https://gitlab.com/redviking/agv-pd/rv-agv-documentation/issues"
   },
