@@ -1,6 +1,8 @@
 # 2023 Kickoff Meeting
 
-Join us Thursday, April 13th at 6PM at Brighton High School, in the Media Room to kick off the 2023 Season!
+We held a meeting Thursday, April 13th at 6PM at Brighton High School, in the Media Room to kick off the 2023 Season!
+
+Agenda:
 
 - Meet (some of) the coaches
 - Meet (some of) the captains
@@ -8,9 +10,9 @@ Join us Thursday, April 13th at 6PM at Brighton High School, in the Media Room t
 - Open questions and discussion
 - Strongly encouraged to attend for new riders
 
-The slides reviewed at the meeting are posted below, but please try to attend if you're new to the team or considering joining!
+<!-- The slides reviewed at the meeting are posted below, but please try to attend if you're new to the team or considering joining!
 
-<v-btn href='https://fb.me/e/2vizshZpY'>Facebook Event Details</v-btn>
+<v-btn href='https://fb.me/e/2vizshZpY'>Facebook Event Details</v-btn> -->
 
 ## Slide Deck Presented at our Kick Off Meeting
 

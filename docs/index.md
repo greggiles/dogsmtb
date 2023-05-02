@@ -17,9 +17,9 @@ hero:
     - theme: alt
       text: 2023 Season
       link: 2023/
-    - theme: alt
-      text: Kit Store
-      link: https://teamstore.ascendsportswear.com/store/brighton-cycling/
+    # - theme: alt
+    #   text: Kit Store
+    #   link: https://teamstore.ascendsportswear.com/store/brighton-cycling/
     - theme: alt
       text: Registation
       link: https://ccnbikes.com/#!/events/brighton-area-schools-2023
