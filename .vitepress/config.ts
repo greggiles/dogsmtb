@@ -1,6 +1,4 @@
 // import { defineUserConfig, viteBundler } from "vuepress-vite";
-
-
 import {defineConfig} from "vitepress"
 
 export default defineConfig({
@@ -12,6 +10,9 @@ export default defineConfig({
     }
   },
   title: 'Brighton Bulldogs',
+  head: [
+    ['link', { rel: 'stylesheet', href: 'https://cdn.jsdelivr.net/npm/@mdi/font@5.x/css/materialdesignicons.min.css' }]
+  ],
   description: 'Mountain Bike Team.',
   srcDir: './docs',
   cleanUrls: true,

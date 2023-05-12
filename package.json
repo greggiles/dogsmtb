@@ -21,6 +21,7 @@
   },
   "homepage": "https://gitlab.com/redviking/agv-pd/rv-agv-documentation#readme",
   "devDependencies": {
+    "@mdi/font": "^7.2.96",
     "flexsearch": "^0.7.31",
     "markdown-it": "^13.0.1",
     "vitepress": "^1.0.0-alpha.46",

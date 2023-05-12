@@ -1,0 +1,26 @@
+<head>
+    <script src="https://unpkg.com/html5-qrcode" type="text/javascript"></script>
+
+</head>
+<body>
+    <div style="width: 500px" id="reader">
+        This is the reader Div?
+    </div>
+
+    <div id="result">This is the Result</div>
+    
+    
+</body>
+    
+<script>
+    function onScanSuccess(decodedText, decodedResult) {
+        // Handle on success condition with the decoded text or result.
+        document.getElementById("result").innerHTML = decodedText;
+        console.log(`Scan result: ${decodedText}`, decodedResult);
+    }
+
+    var html5QrcodeScanner = new Html5QrcodeScanner(
+        "reader", { fps: 10, qrbox: 250,  }, false
+        );
+    html5QrcodeScanner.render(onScanSuccess);
+</script>
