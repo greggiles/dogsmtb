@@ -1,7 +1,6 @@
 import { SearchPlugin } from "vitepress-plugin-search";
 import { defineConfig } from "vite";
 
-
 export default defineConfig({
   plugins: [
     SearchPlugin({
@@ -10,6 +9,9 @@ export default defineConfig({
       previewLength: 20,
     }),
   ],
+  build: {
+    chunkSizeWarningLimit: 1000, // in kilobytes
+  },
   server: {
     fs: {
       // Allow serving files from one level up to the project root

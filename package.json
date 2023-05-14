@@ -22,13 +22,15 @@
   "homepage": "https://gitlab.com/redviking/agv-pd/rv-agv-documentation#readme",
   "devDependencies": {
     "@mdi/font": "^7.2.96",
+    "@types/vue-barcode-reader": "^0.0.0",
     "flexsearch": "^0.7.31",
     "markdown-it": "^13.0.1",
-    "vitepress": "^1.0.0-alpha.46",
+    "vitepress": "^1.0.0-alpha.75",
     "vitepress-plugin-search": "^1.0.4-alpha.19",
     "vue": "^3.2.47"
   },
   "dependencies": {
+    "vue-barcode-reader": "^1.0.3",
     "vue3-youtube": "^0.1.9",
     "vuetify": "^3.1.13"
   }

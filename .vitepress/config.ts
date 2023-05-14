@@ -1,12 +1,9 @@
-// import { defineUserConfig, viteBundler } from "vuepress-vite";
 import {defineConfig} from "vitepress"
 
 export default defineConfig({
-  // title: "____",
-  // description: "____",
   vite: {     // <=== insert this section 
     ssr: {
-      noExternal: ["vuetify"]
+      noExternal: ["vuetify", "vue-barcode-reader"]
     }
   },
   title: 'Brighton Bulldogs',

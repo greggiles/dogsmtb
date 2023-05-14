@@ -1,5 +1,6 @@
 import DefaultTheme from 'vitepress/theme'
 import pdfLink from '../../components/pdfLink.vue'
+import scanner from '../../components/scanner.vue'
 import YouTube from 'vue3-youtube'
 
 import "vuetify/styles"
@@ -8,7 +9,6 @@ import * as components from "vuetify/components"
 import * as directives from "vuetify/directives"
 import { aliases, fa } from 'vuetify/iconsets/fa'
 import { mdi } from 'vuetify/iconsets/mdi'
-
 
 import './custom.css'
 
@@ -26,8 +26,9 @@ export default {
     enhanceApp({app}) {
         // DefaultTheme.enhanceApp(ctx)
         app.use(vuetify)
+        
         app.component('YouTube', YouTube)
         app.component('pdfLink', pdfLink)
-
+        app.component('scanner', scanner)
   }
 }
