@@ -30,6 +30,8 @@
     "vue": "^3.2.47"
   },
   "dependencies": {
+    "google-spreadsheet": "^3.3.0",
+    "googleapis": "^118.0.0",
     "vue-barcode-reader": "^1.0.3",
     "vue3-youtube": "^0.1.9",
     "vuetify": "^3.1.13"

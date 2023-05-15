@@ -23,3 +23,5 @@ pnpm-debug.log*
 *.sw?
 .vitepress/cache/
 .vitepress/dist/
+.vercel
+.env
