@@ -30,6 +30,7 @@
     "vue": "^3.2.47"
   },
   "dependencies": {
+    "axios": "^1.4.0",
     "google-spreadsheet": "^3.3.0",
     "googleapis": "^118.0.0",
     "vue-barcode-reader": "^1.0.3",

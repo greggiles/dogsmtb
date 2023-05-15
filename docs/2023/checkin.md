@@ -2,7 +2,10 @@
 
 Check in Page for 2023
 
-<ClientOnly>
+<!-- <ClientOnly>
     <scanner @decode="onDecode" @loaded="onLoaded"></scanner>
-</ClientOnly>
+</ClientOnly> -->
 
+<ClientOnly>
+    <Test></Test>
+</ClientOnly>

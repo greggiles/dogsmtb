@@ -1,6 +1,7 @@
 import DefaultTheme from 'vitepress/theme'
 import pdfLink from '../../components/pdfLink.vue'
 import scanner from '../../components/scanner.vue'
+import Test from '../../components/Test.vue'
 import YouTube from 'vue3-youtube'
 
 import "vuetify/styles"
@@ -30,5 +31,6 @@ export default {
         app.component('YouTube', YouTube)
         app.component('pdfLink', pdfLink)
         app.component('scanner', scanner)
+        app.component('Test', Test)
   }
 }

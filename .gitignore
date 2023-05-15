@@ -25,3 +25,5 @@ pnpm-debug.log*
 .vitepress/dist/
 .vercel
 .env
+client_secret.json
+
