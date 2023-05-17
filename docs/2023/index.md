@@ -1,14 +1,10 @@
-# 2023 Brighton Mountain Biking
 
-Welcome to the 2023 season for the Brighton Mountain Biking Team!
 
 ## Registration
 
 Registration opened March 1st 2023. Registration is on the MiSCA website. 
 
-<center>
 <v-btn href='https://ccnbikes.com/#!/events/brighton-area-schools-2023'>Click Here to Register Now!</v-btn>
-</center>
 
 <!-- ## Kick Off Meeting
 

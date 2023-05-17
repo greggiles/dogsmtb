@@ -42,6 +42,7 @@ export default defineConfig({
         items: [
           { text: 'Overview', link: '2023/'},
           { text: 'Check In', link: '2023/checkin'},
+          { text: 'Checked In', link: '2023/checkedin'},
           { text: 'Kickoff Meeting', link: '/2023/kickoff'},
           { text: 'Important Dates', link: '/2023/important_dates' },
           { text: 'Captains', link: '2023/captains'},

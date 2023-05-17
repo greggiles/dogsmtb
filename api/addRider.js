@@ -21,7 +21,8 @@ module.exports = async (req, res) => {
           range: process.env.SPREADSHEET_SHEET,
         });
 
-        console.log(data.values)
+        // console.log(req.query)
+        // console.log(data.values)
 
         // Check if rider already exists
         const existingRider = data.values.find(
@@ -29,7 +30,7 @@ module.exports = async (req, res) => {
         );
   
         if (existingRider) {
-            return res.status(400).json({ error: 'Rider already exists' });
+            return res.status(201).json({ message: 'Rider already exists' });
         }
   
         await sheets.spreadsheets.values.append({

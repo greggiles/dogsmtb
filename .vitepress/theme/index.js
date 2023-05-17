@@ -1,7 +1,7 @@
 import DefaultTheme from 'vitepress/theme'
 import pdfLink from '../../components/pdfLink.vue'
-import scanner from '../../components/scanner.vue'
-import Test from '../../components/Test.vue'
+import CheckIn from '../../components/CheckIn.vue'
+import CheckedIn from '../../components/CheckedIn.vue'
 import YouTube from 'vue3-youtube'
 
 import "vuetify/styles"
@@ -19,7 +19,8 @@ const vuetify = createVuetify({components, directives, icons: {
   sets: {
     fa,
     mdi,
-  }
+  },
+
 }})
 
 export default {
@@ -30,7 +31,7 @@ export default {
         
         app.component('YouTube', YouTube)
         app.component('pdfLink', pdfLink)
-        app.component('scanner', scanner)
-        app.component('Test', Test)
+        app.component('CheckIn', CheckIn)
+        app.component('CheckedIn', CheckedIn)
   }
 }

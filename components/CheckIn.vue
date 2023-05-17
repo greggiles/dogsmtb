@@ -1,12 +1,59 @@
 <script setup>
 import { ref } from "vue";
-import { StreamBarcodeReader }  from 'vue-barcode-reader' 
-const decodedText = ref("");
+import axios from "axios";
+import { StreamBarcodeReader }  from 'vue-barcode-reader';
+const activity = ref([]);
+
 const onLoaded = () => {
   console.log("Scanner Loaded");
 };
-const onDecode = (text) => {
-  decodedText.value = riders[text];
+
+function getLocation() {
+  var position = 'Not Sure, Probably Brighton?';
+  // console.log(position)
+  // if (navigator.geolocation) {
+  //   position = navigator.geolocation.getCurrentPosition();
+  //   console.log(position)
+
+  // }
+  return position;
+};
+
+const addRider = async (rider) => {
+  var query = 'riderName='+rider.riderName;
+  query = query + '&riderId='+rider.riderId;
+  query = query + '&riderLocation='+rider.location;
+  query = query + '&checkinDate='+rider.checkinDate;
+  axios
+    .post('../api/addRider?'+query)
+    .then((response) => {
+      console.log('Got post response: ', response)
+      let index = activity.value.findIndex(x => x.riderId === rider.riderId && x.pending === true);
+      activity.value[index].pending=false;
+    })
+    .catch((error) => {
+      console.log(error);
+    });
+};
+
+const onDecode = (Id) => {
+  console.log(Id);
+  var riderData = { };
+  riderData.riderId = Id;
+  if (Id in riders) {
+    riderData.location = getLocation();
+    riderData.riderName = riders[Id];
+    const date = new Date();
+    riderData.checkinDate = date.toLocaleDateString();
+    riderData.pending=true
+    addRider(riderData);
+    activity.value.push(riderData);
+  }
+  else {
+    riderData.riderName = Id+' unknown';
+    riderData.Id = Id;
+    activity.value.push(riderData);
+  }
 };
 const riders = {
         "100395205": "★Brendan Giles★",
@@ -119,21 +166,46 @@ const riders = {
         "100402501": "©Jeff Poirier©",
         "100463693": "©Nicole Peterson©",
         "100398922": "©Melissa Babas©",
-        "100424818": "©Kosta Kontoyiannakis©",
-    };
+        "100424818": "©Kosta Kontoyiannakis©"
+  };
 
 </script>
 
 <template>
   <StreamBarcodeReader @decode="onDecode" @loaded="onLoaded"></StreamBarcodeReader>
-  <h2>{{ decodedText }}</h2>
+
+  <v-col v-for="item in activity" :key="item.riderId">
+    <v-card density="compact">
+      <v-card-title>{{ item.riderName }}</v-card-title>
+      <v-card-text class="py-0">
+      <v-row align="center" no-gutters>
+        <v-col
+          cols="6"
+        >
+        {{ item.checkinDate }}
+        </v-col>
+        <v-col cols="6" class="text-right">
+          <div v-if="item.pending" class="py-0">
+            <v-progress-circular
+              indeterminate
+              :size="25"
+              :width="4"
+            ></v-progress-circular>
+          </div>
+          <div v-else class="text-center py-0">
+            <v-icon icon="mdi:mdi-check" />
+          </div>
+        </v-col>
+      </v-row>
+    </v-card-text>
+    </v-card>
+  </v-col>
+
+
 </template>
 
 <style scoped>
 a {
   color: #42b983;
-}
-.information {
-  margin-top: 100px;
 }
 </style>

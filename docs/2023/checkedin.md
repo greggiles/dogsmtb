@@ -3,7 +3,6 @@ layout: doc
 ---
 
 <ClientOnly>
-    <CheckIn @decode="onDecode"></CheckIn>
+    <CheckedIn></CheckedIn>
 </ClientOnly>
-
 
