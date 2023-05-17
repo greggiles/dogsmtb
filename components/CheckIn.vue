@@ -41,13 +41,21 @@ const onDecode = (Id) => {
   var riderData = { };
   riderData.riderId = Id;
   if (Id in riders) {
-    riderData.location = getLocation();
-    riderData.riderName = riders[Id];
-    const date = new Date();
-    riderData.checkinDate = date.toLocaleDateString();
-    riderData.pending=true
-    addRider(riderData);
-    activity.value.push(riderData);
+    let index = activity.value.findIndex(x => x.riderId === Id);
+    if (index > -1) {
+      console.log('rider already exists', Id, riderData);
+      riderData = activity.value.unshift(activity.value.splice(index, 1)[0]);
+    }
+    else {
+      console.log('adding rider ', Id);
+      riderData.location = getLocation();
+      riderData.riderName = riders[Id];
+      const date = new Date();
+      riderData.checkinDate = date.toLocaleDateString();
+      riderData.pending=true
+      addRider(riderData);
+      activity.value.push(riderData);
+    }
   }
   else {
     riderData.riderName = Id+' unknown';
@@ -172,9 +180,11 @@ const riders = {
 </script>
 
 <template>
-  <StreamBarcodeReader @decode="onDecode" @loaded="onLoaded"></StreamBarcodeReader>
+  <v-col style="height: 200px">
+    <StreamBarcodeReader @decode="onDecode" @loaded="onLoaded"></StreamBarcodeReader>
+  </v-col>
 
-  <v-col v-for="item in activity" :key="item.riderId">
+  <v-col v-for="item in activity.slice().reverse()" :key="item.riderId">
     <v-card density="compact">
       <v-card-title>{{ item.riderName }}</v-card-title>
       <v-card-text class="py-0">
