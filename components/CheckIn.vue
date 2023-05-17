@@ -180,9 +180,9 @@ const riders = {
 </script>
 
 <template>
-  <v-col style="height: 200px">
+  <!-- <v-col style="height: 200px"> -->
     <StreamBarcodeReader @decode="onDecode" @loaded="onLoaded"></StreamBarcodeReader>
-  </v-col>
+  <!-- </v-col> -->
 
   <v-col v-for="item in activity.slice().reverse()" :key="item.riderId">
     <v-card density="compact">
