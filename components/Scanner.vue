@@ -54,8 +54,8 @@
   
   <style scoped>
   video {
-    max-width: 50%;
-    max-height: 50%;
+    max-width: 100%;
+    max-height: 100%;
   }
   .scanner-container {
     position: relative;
@@ -64,16 +64,16 @@
   .overlay-element {
     position: absolute;
     top: 0;
-    width: 50%;
+    width: 100%;
     height: 100%;
     background: rgba(30, 30, 30, 0.5);
   
-    -webkit-clip-path: polygon(0% 0%, 0% 100%, 20% 100%, 20% 20%, 80% 20%, 80% 80%, 20% 80%, 20% 100%, 100% 100%, 100% 0%);
-    clip-path: polygon(0% 0%, 0% 100%, 20% 100%, 20% 20%, 80% 20%, 80% 80%, 20% 80%, 20% 100%, 100% 100%, 100% 0%);
+    -webkit-clip-path: polygon(0% 0%, 0% 100%, 10% 100%, 10% 10%, 90% 10%, 90% 90%, 10% 90%, 10% 100%, 100% 100%, 100% 0%);
+    clip-path: polygon(0% 0%, 0% 100%, 10% 100%, 10% 10%, 90% 10%, 90% 90%, 10% 90%, 10% 100%, 100% 100%, 100% 0%);
   }
   
   .laser {
-    width: 40%;
+    width: 90%;
     margin-left: 5%;
     background-color: tomato;
     height: 1px;
