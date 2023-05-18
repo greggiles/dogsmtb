@@ -3,7 +3,7 @@ import {defineConfig} from "vitepress"
 export default defineConfig({
   vite: {     // <=== insert this section 
     ssr: {
-      noExternal: ["vuetify", "vue-barcode-reader"]
+      noExternal: ["vuetify"]
     }
   },
   title: 'Brighton Bulldogs',
