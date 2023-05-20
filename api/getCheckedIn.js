@@ -13,7 +13,7 @@ module.exports = async (req, res) => {
   try {
     const { data } = await sheets.spreadsheets.values.get({
       spreadsheetId: process.env.SPREADSHEET_ID,
-      range: process.env.RIDER_RANGE,
+      range: process.env.CHECKIN_RANGE,
     });
 
     res.status(200).json({ data: data.values });

@@ -17,11 +17,11 @@ const updateResults = () => {
   else results.value = checkins;
 };
 
-const getRiders = async () => {
+const getCheckedIn = async () => {
   loading.value = true;
   results.value = [];
   axios
-    .get("../api/getRiders")
+    .get("../api/getCheckedIn")
     .then((response) => {
       headers.value = response.data.data.shift();
       checkins = response.data.data;
@@ -36,7 +36,7 @@ function changeDayFilter() {
   updateResults();
 }
 
-getRiders();
+getCheckedIn();
 </script>
 
 <template>
@@ -52,7 +52,7 @@ getRiders();
       <v-btn value="season"> Season </v-btn>
     </v-btn-toggle>
 
-    <v-btn @click="getRiders()" tile color="deep-purple accent-3">
+    <v-btn @click="getCheckedIn()" tile color="deep-purple accent-3">
       Refresh
     </v-btn>
   </div>
