@@ -108,7 +108,7 @@ const onDecode = (Id) => {
 
 <template>
     <v-container class="mb-0">
-      <v-row align-self="center" no-gutters  style="height: 250px;">
+      <v-row align-self="center" no-gutters  style="height: auto;">
         <v-col align-self="center"> 
           <div v-if="loaded" class="text-center py-6">
             <StreamBarcodeReader class="scanner" @decode="onDecode" @loaded="onLoaded"></StreamBarcodeReader>

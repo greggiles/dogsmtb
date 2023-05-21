@@ -1,12 +1,17 @@
 <template>
-    <div class="scanner-container" >
-      <div v-show="!isLoading">
-        <video poster="data:image/gif,AAAA" ref="scanner"></video>
-        <div class="overlay-element"></div>
-        <div class="laser"></div>
-      </div>
+  <div class="scanner-container">
+    <div v-if="isLoading">
+      <div class="loader">Loading...</div> <!-- A loading indicator -->
     </div>
-  </template>
+    <div v-show="!isLoading">
+      <video poster="data:image/gif,AAAA" ref="scanner"></video>
+      <div class="overlay-element"></div>
+      <div class="laser"></div>
+    </div>
+  </div>
+</template>
+
+
   
   <script>
   import { BrowserMultiFormatReader, Exception } from "@zxing/library";
@@ -46,6 +51,9 @@
             this.$emit("decode", result.text);
             this.$emit("result", result);
           }
+        if (err) {
+          this.$emit("error", err); // Emitting error
+        }
         });
       },
     },
@@ -54,13 +62,25 @@
   
   <style scoped>
   video {
-    max-width: 100%;
-    max-height: 100%;
+    width: 100%    !important;
+    height: auto   !important;
+    /* max-width: 100%;
+    max-height: 100%; */
   }
   .scanner-container {
     position: relative;
+    /* width: 100%;
+    height: 50vh; Make the container responsive */
   }
   
+
+ .loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
   .overlay-element {
     position: absolute;
     top: 0;
@@ -78,22 +98,22 @@
     background-color: tomato;
     height: 1px;
     position: absolute;
-    top: 40%;
+    top: 10%;
     z-index: 2;
     box-shadow: 0 0 4px red;
     -webkit-animation: scanning 2s infinite;
     animation: scanning 2s infinite;
   }
   @-webkit-keyframes scanning {
-    50% {
-      -webkit-transform: translateY(75px);
-      transform: translateY(75px);
+    80% {
+      -webkit-transform: translateY(275px);
+      transform: translateY(275px);
     }
   }
   @keyframes scanning {
-    50% {
-      -webkit-transform: translateY(75px);
-      transform: translateY(75px);
+    80% {
+      -webkit-transform: translateY(275px);
+      transform: translateY(275px);
     }
   }
   </style>
