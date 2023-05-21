@@ -9,6 +9,9 @@ const auth = new google.auth.JWT(
 
 const sheets = google.sheets({ version: 'v4', auth });
 
+console.log('SP', process.env.SPREADSHEET_ID);
+console.log('RNG', process.env.CHECKIN_RANGE);
+
 module.exports = async (req, res) => {
   try {
     const { data } = await sheets.spreadsheets.values.get({

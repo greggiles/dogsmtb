@@ -107,11 +107,14 @@ const onDecode = (Id) => {
 </script>
 
 <template>
-    <v-container class="mb-0">
-      <v-row align-self="center" no-gutters  style="height: auto;">
+    <v-container class="py-0">
+      <v-row align-self="center" no-gutters style="height: auto;">
         <v-col align-self="center"> 
           <div v-if="loaded" class="text-center py-6">
             <StreamBarcodeReader class="scanner" @decode="onDecode" @loaded="onLoaded"></StreamBarcodeReader>
+          </div>
+          <div v-else>
+            <div class="loader">Loading...</div> <!-- A loading indicator -->
           </div>
         </v-col>
       </v-row>
@@ -154,4 +157,13 @@ const onDecode = (Id) => {
 a {
   color: #42b983;
 }
+
+
+.loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
 </style>

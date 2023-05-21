@@ -1,6 +1,6 @@
 <template>
   <div class="scanner-container">
-    <div v-if="isLoading">
+    <div v-show="isLoading">
       <div class="loader">Loading...</div> <!-- A loading indicator -->
     </div>
     <div v-show="!isLoading">
@@ -62,6 +62,7 @@
   
   <style scoped>
   video {
+    transform: ;
     width: 100%    !important;
     height: auto   !important;
     /* max-width: 100%;
@@ -93,27 +94,23 @@
   }
   
   .laser {
-    width: 90%;
-    margin-left: 5%;
-    background-color: tomato;
-    height: 1px;
-    position: absolute;
-    top: 10%;
-    z-index: 2;
-    box-shadow: 0 0 4px red;
-    -webkit-animation: scanning 2s infinite;
-    animation: scanning 2s infinite;
+  width: 90%;
+  margin-left: 5%;
+  background-color: tomato;
+  height: 1px;
+  position: absolute;
+  top: 0; /* start from the middle */
+  z-index: 2;
+  box-shadow: 0 0 4px red;
+  animation: scanning 2s infinite;
+}
+
+@keyframes scanning {
+  0%, 100% {
+    top: 0;
   }
-  @-webkit-keyframes scanning {
-    80% {
-      -webkit-transform: translateY(275px);
-      transform: translateY(275px);
-    }
+  50% {
+    top: 100%; /* down */
   }
-  @keyframes scanning {
-    80% {
-      -webkit-transform: translateY(275px);
-      transform: translateY(275px);
-    }
-  }
+}
   </style>
