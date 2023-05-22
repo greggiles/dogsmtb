@@ -2,15 +2,23 @@
 import { ref } from "vue";
 import axios from "axios";
 import StreamBarcodeReader from './Scanner.vue'
+import RiderModal from './TestCheckIn.vue'
 const loaded = ref("false");
 const activity = ref([]);
 const snackBar = ref();
 const scanError = ref();
+const showModal = ref(false);
 var riders2;
-
+var riderArray;
 
 const onLoaded = () => {
   console.log("Scanner Loaded");
+};
+const openModal = () => {
+  showModal.value=true;
+};
+const closeModal = () => {
+  showModal.value=false;
 };
 
 var location = {};
@@ -44,14 +52,16 @@ const getRiders = async () => {
       response.data.data.shift();
       response.data.data.shift();
       response.data.data.shift();
-      riders2 = {}
+      riders2 = {};
+      riderArray = [];
       for( var i = 0; i < response.data.data.length ;  i++) {
-        riders2[response.data.data[i][0]] = response.data.data[i][1]
+        if (response.data.data[i][0].length > 0) {
+          riders2[response.data.data[i][0]] = response.data.data[i][1];
+          riderArray.push(response.data.data[i][1]);
+        }
       }
       loaded.value = true;
-      console.log('riders loaded')
-      // console.log(riders2);
-      // console.log(riders2['100395205']);
+      // console.log('riders loaded', riderArray);
     })
     .catch((error) => {
       console.log(error);
@@ -77,6 +87,17 @@ const addRider = async (rider) => {
       console.log(error);
     });
 };
+
+const manualCheckIn = (riderName) => {
+  for (const [key, value] of Object.entries(riders2)) {
+    if (riderName === value) {
+      console.log(`manually checking in: ${value} with ${key}`);
+      onDecode(key);
+      return;
+    }
+  } 
+  console.log('no manaul?')
+} 
 
 const onDecode = (Id) => {
   var riderData = { };
@@ -111,6 +132,10 @@ const onDecode = (Id) => {
       <v-row align-self="center" no-gutters style="height: auto;">
         <v-col align-self="center"> 
           <div v-if="loaded" class="text-center py-6">
+            <v-row align-self="center" no-gutters style="height: auto;">
+              <v-btn @click="openModal">Manual CheckIn</v-btn>
+              <RiderModal :riderArray="riderArray" :showModal="showModal" @selected="manualCheckIn" @closeModal="closeModal" />
+            </v-row>
             <StreamBarcodeReader class="scanner" @decode="onDecode" @loaded="onLoaded"></StreamBarcodeReader>
           </div>
           <div v-else>
