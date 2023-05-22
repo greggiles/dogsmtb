@@ -132,8 +132,9 @@ const onDecode = (Id) => {
       <v-row align-self="center" no-gutters style="height: auto;">
         <v-col align-self="center"> 
           <div v-if="loaded" class="text-center py-6">
-            <v-row align-self="center" no-gutters style="height: auto;">
+            <v-row align-self="center" no-gutters style="height: auto;" justify="space-between">
               <v-btn @click="openModal">Manual CheckIn</v-btn>
+              <v-btn href="./checkedin">CheckIn List</v-btn>
               <RiderModal :riderArray="riderArray" :showModal="showModal" @selected="manualCheckIn" @closeModal="closeModal" />
             </v-row>
             <StreamBarcodeReader class="scanner" @decode="onDecode" @loaded="onLoaded"></StreamBarcodeReader>

@@ -1,57 +1,54 @@
 <template>
-  <div v-if="showModal" class="modal">
+  <div v-if="showModal" class="modal" style="width: 80%" >
     <div class="modal-content">
       <h2>Select a Rider</h2>
-      <v-select 
-      :items="ridersArray"
-      item-text="name"
-      item-value="key"
-      label="Select a Rider"> </v-select>
-      <button @click="checkIn">Check In</button>
-      <button @click="cancel">Cancel</button>
+      <div> 
+        <v-select
+            :items="riderArray"
+            v-model="selectedRider"
+            label="Select a Rider"
+            :menu-props="{ auto: true }"
+            ></v-select>
+      </div>
+      <v-btn @click="cancel">Cancel</v-btn>
+      <v-btn @click="checkIn">Check In</v-btn>
     </div>
   </div>
 </template>
-  
+
 <script>
 export default {
   name: "RiderModal",
   props: {
-    riders: {
-      type: Object,
-      required: true,
+    riderArray: {
+      type: Array,
+      required: true
     },
     showModal: {
       type: Boolean,
-      required: true,
-    },
+      required: true
+    }
   },
   data() {
     return {
-      selectedRider: null,
+      selectedRider: null
     };
-  },
-  computed: {
-    ridersArray() {
-      return Object.entries(this.riders).map(([key, name]) => ({ key, name }));
-    },
   },
   methods: {
     checkIn() {
       if (this.selectedRider !== null) {
-        this.$emit("decode", this.selectedRider);
+        this.$emit("selected", this.selectedRider);
       }
       this.$emit("closeModal");
     },
     cancel() {
-      console.log(this.ridersArray);
       this.$emit("closeModal");
-    },
-  },
+    }
+  }
 };
 </script>
-  
-  <style scoped>
+
+<style scoped>
 .modal {
   /* Add your modal styles here */
 }
