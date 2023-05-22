@@ -7,8 +7,6 @@
     "dev": "vitepress dev",
     "build": "vitepress build",
     "preview": "vitepress preview",
-    "docker-build": "docker build -t registry.gitlab.com/redviking/agv-pd/rv-agv-documentation .",
-    "docker-push": "docker push registry.gitlab.com/redviking/agv-pd/rv-agv-documentation"
   },
   "repository": {
     "type": "git",
@@ -17,9 +15,9 @@
   "author": "Greg Giles",
   "license": "MIT",
   "bugs": {
-    "url": "https://gitlab.com/redviking/agv-pd/rv-agv-documentation/issues"
+    "url": "https://github.com/greggiles/dogsmtb/issues"
   },
-  "homepage": "https://gitlab.com/redviking/agv-pd/rv-agv-documentation#readme",
+  "homepage": "https://www.dogsmtb.com/",
   "devDependencies": {
     "@mdi/font": "^7.2.96",
     "@types/vue-barcode-reader": "^0.0.0",
