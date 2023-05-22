@@ -25,7 +25,7 @@ var location = {};
 
 const setLocation = (pos) => {
   location.lat = pos.coords.latitude;
-  location.log = pos.coords.longitude;
+  location.long = pos.coords.longitude;
   console.log("Location: ", JSON.stringify(location));
   
 } 
