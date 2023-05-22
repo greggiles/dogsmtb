@@ -25,6 +25,7 @@
     "@types/vue-barcode-reader": "^0.0.0",
     "flexsearch": "^0.7.31",
     "markdown-it": "^13.0.1",
+    "vercel": "^29.4.0",
     "vitepress": "^1.0.0-alpha.75",
     "vitepress-plugin-search": "^1.0.4-alpha.19",
     "vue": "^3.2.47"
@@ -32,9 +33,7 @@
   "dependencies": {
     "@zxing/library": "^0.20.0",
     "axios": "^1.4.0",
-    "google-spreadsheet": "^3.3.0",
     "googleapis": "^118.0.0",
-    "vue-barcode-reader": "^1.0.3",
     "vue3-youtube": "^0.1.9",
     "vuetify": "^3.1.13"
   }
