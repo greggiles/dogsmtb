@@ -2,7 +2,7 @@
 import { ref } from "vue";
 import axios from "axios";
 import StreamBarcodeReader from './Scanner.vue'
-import RiderModal from './TestCheckIn.vue'
+import RiderModal from './ManualCheckIn.vue'
 const loaded = ref("false");
 const activity = ref([]);
 const snackBar = ref();
