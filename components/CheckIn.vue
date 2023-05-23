@@ -26,7 +26,7 @@ var location = {};
 const setLocation = (pos) => {
   location.lat = pos.coords.latitude;
   location.long = pos.coords.longitude;
-  console.log("Location: ", JSON.stringify(location));
+  // console.log("Location: ", JSON.stringify(location));
   
 } 
 
@@ -75,6 +75,7 @@ const addRider = async (rider) => {
   query = query + '&riderId='+rider.riderId;
   query = query + '&riderLocation='+JSON.stringify(rider.location);
   query = query + '&checkinDate='+rider.checkinDate;
+  query = query + '&checkinTime='+rider.checkinTime;
   console.log(query)
   axios
     .post('../api/addRider?'+query)
@@ -114,6 +115,7 @@ const onDecode = (Id) => {
       riderData.location = location;
       const date = new Date();
       riderData.checkinDate = date.toLocaleDateString();
+      riderData.checkinTime = date.toLocaleTimeString();
       riderData.pending=true
       addRider(riderData);
       activity.value.push(riderData);
@@ -150,11 +152,11 @@ const onDecode = (Id) => {
           <v-card-text class="py-0">
           <v-row align="center" no-gutters>
             <v-col
-              cols="6"
+              cols="10"
             >
-            {{ item.checkinDate }}
+            {{ item.checkinDate }} - {{ item.checkinTime }}
             </v-col>
-            <v-col cols="6" class="text-right">
+            <v-col cols="2" class="text-right">
               <div v-if="item.pending" class="py-0">
                 <v-progress-circular
                   indeterminate

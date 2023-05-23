@@ -15,6 +15,7 @@ module.exports = async (req, res) => {
     const riderId = req.query.riderId;
     const checkinDate = req.query.checkinDate;
     const riderLocation = req.query.riderLocation;
+    const checkinTime = req.query.checkinTime;
     try {
         const { data } = await sheets.spreadsheets.values.get({
           spreadsheetId: process.env.SPREADSHEET_ID,
@@ -38,7 +39,7 @@ module.exports = async (req, res) => {
             range: process.env.SPREADSHEET_SHEET,
             valueInputOption: 'RAW',
             resource: {
-              values: [[ checkinDate, riderId, riderName, riderLocation]],
+              values: [[ checkinDate, riderId, riderName, riderLocation, checkinTime]],
             },
           });
 
