@@ -67,7 +67,8 @@ getCheckedIn();
   <v-col v-for="item in results" :key="item[0]">
     <v-card density="compact">
       <v-card-title>{{ item[2] }}</v-card-title>
-      <v-card-text>{{ item[0] }} - {{ item[4] }} </v-card-text>
+      <v-card-text>{{ item[0] }} - {{ item[4] }} <br/>
+      {{ item[5] }} </v-card-text>
     </v-card>
   </v-col>
 </template>
