@@ -1,5 +1,5 @@
 const { google } = require('googleapis');
-console.log(process.env.GOOGLE_SERVICE_ACCOUNT_EMAIL);
+// console.log(process.env.GOOGLE_SERVICE_ACCOUNT_EMAIL);
 const auth = new google.auth.JWT(
   process.env.GOOGLE_SERVICE_ACCOUNT_EMAIL,
   null,
@@ -9,8 +9,8 @@ const auth = new google.auth.JWT(
 
 const sheets = google.sheets({ version: 'v4', auth });
 
-console.log('SP', process.env.SPREADSHEET_ID);
-console.log('RNG', process.env.CHECKIN_RANGE);
+// console.log('SP', process.env.SPREADSHEET_ID);
+// console.log('RNG', process.env.CHECKIN_RANGE);
 
 module.exports = async (req, res) => {
   try {
