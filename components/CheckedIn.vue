@@ -2,7 +2,6 @@
 import { ref } from "vue";
 import axios from "axios";
 
-const headers = ref("");
 var checkins = [];
 const results = ref("");
 const filter = ref("today");
@@ -12,9 +11,7 @@ const today = date.toLocaleDateString();
 
 const updateResults = () => {
   loading.value = false;
-  if (filter.value === "today")
-    results.value = checkins.filter(([checkin]) => checkin === today);
-  else results.value = checkins;
+  results.value = checkins;
 };
 
 const getCheckedIn = async () => {
@@ -23,8 +20,7 @@ const getCheckedIn = async () => {
   axios
     .get("../api/getCheckedIn")
     .then((response) => {
-      headers.value = response.data.data.shift();
-      checkins = response.data.data;
+      checkins = response.data;
       updateResults();
     })
     .catch((error) => {
@@ -66,9 +62,9 @@ getCheckedIn();
 
   <v-col v-for="item in results" :key="item[0]">
     <v-card density="compact">
-      <v-card-title>{{ item[2] }}</v-card-title>
-      <v-card-text>{{ item[0] }} - {{ item[4] }} <br/>
-      {{ item[5] }} </v-card-text>
+      <v-card-title>{{ item.name }}</v-card-title>
+      <v-card-text>{{ item.date }} - {{ item.time }} <br/>
+      {{ item.park }} </v-card-text>
     </v-card>
   </v-col>
 </template>

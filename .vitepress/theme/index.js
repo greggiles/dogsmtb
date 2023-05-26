@@ -2,6 +2,7 @@ import DefaultTheme from 'vitepress/theme'
 import pdfLink from '../../components/pdfLink.vue'
 import CheckIn from '../../components/CheckIn.vue'
 import CheckedIn from '../../components/CheckedIn.vue'
+import CheckInTest from '../../components/testSelectRider.vue'
 import YouTube from 'vue3-youtube'
 
 import "vuetify/styles"
@@ -33,5 +34,6 @@ export default {
         app.component('pdfLink', pdfLink)
         app.component('CheckIn', CheckIn)
         app.component('CheckedIn', CheckedIn)
+        app.component('CheckInTest', CheckInTest)
   }
 }

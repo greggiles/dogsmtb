@@ -1,6 +1,4 @@
 const postgres = require('postgres');
-require('dotenv').config();
-const util = require('util');
 
 const ilra = { 'lat': 42.506778, "long": -83.737241 };
 const bra = { 'lat': 42.501520, "long": -83.835931 };
