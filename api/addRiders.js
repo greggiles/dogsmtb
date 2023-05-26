@@ -79,7 +79,7 @@ module.exports = async (req, res) => {
       const query = `
           INSERT INTO checkinlog (rider_id, ts, location, park)
           VALUES ${values}
-          ON CONFLICT (id) DO UPDATE
+          ON CONFLICT (rider_id, date_trunc('day'::text, ts)) DO UPDATE
           SET ts = EXCLUDED.ts, location = EXCLUDED.location, park = EXCLUDED.park
         `;
 

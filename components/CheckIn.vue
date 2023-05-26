@@ -89,7 +89,7 @@ const addRiders = async (riders) => {
     actDetail.id = rider;
     actDetail.name = riderArray[riderIdx].name;
     actDetail.state = 'pending';
-    actDetail.ts = ts;
+    actDetail.ts = ts.toLocaleString();
     activity.value.push(actDetail);
   });
   axios
