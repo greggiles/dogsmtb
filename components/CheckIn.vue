@@ -48,7 +48,19 @@ const getRiders = async () => {
   axios
     .get("../api/getRiders")
     .then((response) => {
-      riderArray = response.data;
+      riderArray = [];
+      var lastgroup = ''
+      response.data.forEach((rider) => {
+        if (rider.group != lastgroup) {
+          // const header = { "title": rider.group, divider: true, disabled: true };
+          const header = { "title": rider.group , "disabled": true};
+          riderArray.push(header);
+          lastgroup = rider.group; 
+        }
+        const riderobj = { "title": rider.name, "value": rider.id };
+        riderArray.push(riderobj);
+      })
+
       loaded.value = true;
       console.log(riderArray);
     })
@@ -78,16 +90,17 @@ const addRider = async (riders) => {
 };
 
 const addRiders = async (riders) => {
+  console.log(riders);
   var ts = new Date();
   var query = '&ids='+riders;
   query = query + '&location='+JSON.stringify(location);
   query = query + '&ts='+ts;
   console.log(query)
   riders.forEach((rider) => {
-    let riderIdx = riderArray.findIndex(x => x.id === rider );
+    let riderIdx = riderArray.findIndex(x => x.value === rider );
     var actDetail = {};
     actDetail.id = rider;
-    actDetail.name = riderArray[riderIdx].name;
+    actDetail.name = riderArray[riderIdx].title;
     actDetail.state = 'pending';
     actDetail.ts = ts.toLocaleString();
     activity.value.push(actDetail);

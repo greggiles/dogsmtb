@@ -4,8 +4,6 @@
       <v-select
         v-model="selectedIds"
         :items="items"
-        item-title="name"
-        item-value="id"
         closable-chips
         chips
         multiple

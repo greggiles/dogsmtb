@@ -26,32 +26,34 @@ module.exports = async (req, res) => {
     
     var riders=[]
     data.values.forEach((rider) => {
-      const id = Number(rider[0]);
-      const name = rider[1];
-      const type = rider[2];
-      var grade = null;
-      if (rider[5]) {
-        grade = Number(rider[5]);
+      if (rider[0].length > 0) {
+        const id = Number(rider[0]);
+        const name = rider[1];
+        const type = rider[2];
+        const group = Number(rider[8]);
+        var grade = null;
+        if (rider[5]) {
+          grade = Number(rider[5]);
+        }
+        else {
+          grade = null;
+        }
+        riders.push([id, name, type, grade, group]);
       }
-      else {
-        grade = null;
-      }
-      if (rider[0].length > 0)
-        riders.push([id, name, type, grade]);
     })
 
-    const values = riders.map(([id, name, type, grade], index) => {
+    const values = riders.map(([id, name, type, grade, group], index) => {
       // Generating placeholders
-      const offset = index * 4;
-      return `($${offset + 1}, $${offset + 2}, $${offset + 3}, $${offset + 4})`;
+      const offset = index * 5;
+      return `($${offset + 1}, $${offset + 2}, $${offset + 3}, $${offset + 4}, $${offset + 5})`;
     }).join(', ');
 
     const params = riders.flat();
     const query = `
-      INSERT INTO riders (id, name, type, grade)
+      INSERT INTO riders (id, name, type, grade, group_id)
       VALUES ${values}
       ON CONFLICT (id) DO UPDATE
-      SET name = EXCLUDED.name, type = EXCLUDED.type, grade = EXCLUDED.grade
+      SET name = EXCLUDED.name, type = EXCLUDED.type, grade = EXCLUDED.grade, group_id = EXCLUDED.group_id
     `;
   
     await db.unsafe(query, params);
