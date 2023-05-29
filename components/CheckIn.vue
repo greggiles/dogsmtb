@@ -52,12 +52,18 @@ const getRiders = async () => {
       var lastgroup = ''
       response.data.forEach((rider) => {
         if (rider.group != lastgroup) {
-          // const header = { "title": rider.group, divider: true, disabled: true };
-          const header = { "title": rider.group , "disabled": true};
-          riderArray.push(header);
+          if (riderArray.length > 0) {
+            const divider = { divider: true };
+            const header = { header: rider.group };
+            // const header = { "divider": true };
+            // header.disabled = true;
+            // riderArray.push(divider);
+            // riderArray.push(header);
+          }
           lastgroup = rider.group; 
         }
-        const riderobj = { "title": rider.name, "value": rider.id };
+        const riderobj = { "title": rider.group + ": " + rider.name , "value": rider.id };
+        riderobj.disabled=false;
         riderArray.push(riderobj);
       })
 
