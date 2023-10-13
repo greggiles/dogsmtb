@@ -15,7 +15,7 @@ import { mdi } from 'vuetify/iconsets/mdi'
 import './custom.css'
 
 const vuetify = createVuetify({components, directives, icons: {
-  defaultSet: 'fa',
+  defaultSet: 'mdi',
   aliases,
   sets: {
     fa,

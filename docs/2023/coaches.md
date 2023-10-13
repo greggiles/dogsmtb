@@ -10,6 +10,26 @@ layout: page
       Our Brave Coaches, bringing order to an otherwise unorderly ordeal.
     </template>
   </VPTeamPageTitle>
+
+<v-carousel
+    cycle
+    height="600"
+    hide-delimiter-background
+    show-arrows="hover"
+    >
+  <v-carousel-item
+    src="/2023/23coaches.PNG"
+    cover
+  ></v-carousel-item>
+
+  <v-carousel-item
+    src="/2023/23coaches2.PNG"
+    cover
+  ></v-carousel-item>
+
+</v-carousel>
+
+
   <VPTeamPageSection>
     <!-- <template #title>Our Shops</template> -->
     <!-- <template #lead>...</template> -->

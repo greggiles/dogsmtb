@@ -10,9 +10,5 @@ Day to day communications for impromtu discussions and ride coordination is via 
 
 <v-btn href='https://join.slack.com/t/brightoncyclingclub/shared_invite/zt-1sflc7k1y-lbnVM7vTVqlpGs3AbDWNXA'><v-icon icon="mdi:mdi-slack" /> Join Slack </v-btn>
 
-
-<!-- <font-awesome-icon icon="fa-brands fa-slack" /> -->
-
-
 <!--@include: ./equipment.md-->
 
