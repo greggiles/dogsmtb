@@ -1,53 +1,22 @@
+# 2023
+
+![Brighton Bulldogs win the 2022 MiSCA State Championship to 10-PEAT!](https://lh3.googleusercontent.com/pw/ADCreHe4VrXL7mli66NWGtJSP-NU3HGzBKf5Bk4ekD_oB_nJOiQGt2kh8Amm6F7umNGV1NPZGWWDMxNCSez_wbJfhOOm5R3kXgCtiWrQqOeqqXIZizFgez0rRZPKTaJ8s2_MpIkjFPzcP99OoAvsXayvJls=w1192-h894-s-no-gm?authuser=0)
+Brighton Bulldogs win the 2023 MiSCA State Championship to 10-PEAT! 
 
 
-## Registration
+## Season Highlight Video
 
-Registration opened March 1st 2023. Registration is on the MiSCA website. 
+Here is our highlight video:
 
-<v-btn href='https://ccnbikes.com/#!/events/brighton-area-schools-2023'>Click Here to Register Now!</v-btn>
+<YouTube src='https://youtu.be/GDEiR5JICRs?si=BgUMWzHLUao3i9ha'/>
 
-<!-- ## Kick Off Meeting
+> care of [Captian Brenan Giles aka great_brendini](https://www.instagram.com/great_brendini/) 
 
-We will be hosting a season kickoff meeting at Brighton Highschool on (tenative) April 13th, 2023
+## 10 Year Photo Album
 
-<v-btn href='https://fb.me/e/2vizshZpY'>Facebook Event Details</v-btn> -->
+<a href= 'https://photos.google.com/share/AF1QipOAaTCqvylNB31GEgdHu4J9aLY4BSlcUy1HffFKhuTK7LZ--LAMvtmpBawjHJ6-Lg?key=QldjRmhuQ0FrU2JKSVkxUFBqeTlVWGhIeUR1Yi1B'><img src='https://lh3.googleusercontent.com/pw/ADCreHfeticmo_AXGaXCwwczCf2eOfIi-BJzj2hG5TT_W3Dlk8AL5Tr311v4Jvy7Or-bnZhdd1iaWgOEEKs6Ysn-aO84-q2U6VXeGP4u0OYrcFxLDYLcxwAjHORoOagROAlNU19UOqGh7y62IuH_H5YsRQg=w1341-h894-s-no-gm?authuser=0' style='border:solid'/>Click Here to Load 10-Year Photo Album</a>
 
-## Practice Season
+## Season Photos
 
-We will begin practices on May 23rd! For those new to the team, practice routes and distances vary by group. Each rider is assigned to a group of about 10-15 riders, and the group rides appropriate distance and difficulty for the group.
-
-- Practice #1: May 23rd at Island Lake Recreation Area (ILRA)
-- Practice #2: May 25th at Brighton Recreation Area (BRA)
-
-### Typical Practice Schedule
-
-Practice schedule is subject to minor change, but historically we have followed a pattern of Tuesdays at Island Lake, and Thursdays at Brighton Recreation Area.
-
-### Tuesday Practices 
-
-**Island Lake Recreation Area**
-- Meet at the end of the road, or ride in from JC Penny parking lot
-- https://goo.gl/maps/pc4DFRuZy6yYYpLG7
-- 4:45PM meet up and assemble
-- 5:00PM ride time (individual groups may alter time slightly)
-
-### Thursday Practices
-
-**Brighton Recreation Area**
-- Meet at the pavilion nearest to the parking lot 
-- https://goo.gl/maps/nzsfUBKXj6SgFuSN6
-- 4:45PM meet up and assemble
-- 5:00PM ride time (individual groups may alter time slightly)
-
-### Weekend Rides
-
-- Varying locations 
-- Optional - to be scheduled
-
-
-## Race Season
-
-Race Season begins in August. Check Out the MiSCA Web Page for more details. 
-
-<v-btn href='https://www.miscabike.org/misca-race-series/'>MiSCA Race Details</v-btn>
+<a href='./photos'>2023 Team Photos</a>
 
