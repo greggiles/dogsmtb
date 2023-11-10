@@ -8,9 +8,13 @@ Brighton Bulldogs win the 2023 MiSCA State Championship to 10-PEAT!
 
 Here is our highlight video:
 
-<YouTube src='https://youtu.be/GDEiR5JICRs?si=BgUMWzHLUao3i9ha'/>
+<YouTube src='https://youtu.be/GDEiR5JICRs?si=BgUMWzHLUao3i9ha' width="100%" height="300"/>
 
 > care of [Captian Brenan Giles aka great_brendini](https://www.instagram.com/great_brendini/) 
+
+## Year End Awards Slides
+
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRSNiOJNRK_JF8K_cWLb-KYoxoRuQ4Ia2jawTHhTFIQknBx9Hg6fJcg9_dQg4-pVx-sYUxtPrCTn64z/embed?start=false&loop=false&delayms=3000" frameborder="0" width="100%" height="300"  allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 ## 10 Year Photo Album
 
