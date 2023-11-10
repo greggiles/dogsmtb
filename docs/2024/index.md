@@ -15,7 +15,6 @@ We will be hosting a season kickoff meeting at Brighton Highschool on (tenative)
 
 ## Year End Video
 
-<Youtube
 
 ## Practice Season
 
