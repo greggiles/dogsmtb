@@ -30,35 +30,9 @@ import {
 
 const captains = [
   {
-    avatar: '/riders/brendan-giles_2022.jpg',
-    name: 'Brendan Giles',
-    desc: '\"Just gonna send it🤙\"',
-    title: 'Senior',
-    links: [
-      { icon: 'instagram', link: 'https://www.instagram.com/great_brendini/' },
-    ]
-  },
-  {
-    avatar: '/riders/liberty-abington_2022.png',
-    name: 'Liberty Abington',
-    title: 'Senior',
-    links: [
-      { icon: 'instagram', link: 'https://www.instagram.com/abliberty/' },
-    ]
-  },
-  {
-    avatar: '/riders/holden-adams_2023.png',
-    name: 'Holden Adams',
-    desc: '\"I only stop for Turtles\"',
-    title: 'Senior',
-    links: [
-      // { icon: 'instagram', link: 'https://www.instagram.com/abliberty/' },
-    ]
-  },
-  {
     avatar: '/riders/adam-govan_2023.png',
     name: 'Adam Govan',
-    title: 'Junior',
+    title: 'Senior',
     desc: '\"Start where you are. Use what you have. Do what you can.\" —Arthur Ashe',
     links: [
       // { icon: 'instagram', link: 'https://www.instagram.com/jude.osterman/' },
@@ -67,15 +41,15 @@ const captains = [
   {
     avatar: '/riders/jude-osterman_2022.png',
     name: 'Jude Osterman',
-    title: 'Junior',
+    title: 'Senior',
     links: [
       { icon: 'instagram', link: 'https://www.instagram.com/jude.osterman/' },
     ]
   },
   {
-    avatar: '/riders/max-andrews_2023.jpg',
-    name: 'Max Andrews',
-    title: 'Sophomore',
+    avatar: '/riders/marley.png',
+    name: 'Marley Simpson',
+    title: 'Junior',
     links: [
       // { icon: 'instagram', link: 'https://www.instagram.com/ferdagirl09/' },
     ]
@@ -83,31 +57,30 @@ const captains = [
   {
     avatar: '/riders/anna-giles_2022.jpg',
     name: 'Anna Giles',
-    title: 'Freshman',
+    title: 'Sophomore',
     links: [
       { icon: 'instagram', link: 'https://www.instagram.com/ferdagirl09/' },
     ]
   },
   {
-    avatar: '/riders/olivia-babas_2022.png',
-    name: 'Olivia Babas',
-    title: '8th Grade',
+    avatar: '/riders/garrett.png',
+    name: 'Garrett Smith',
+    title: 'Sophomore',
     links: [
-    //   { icon: 'instagram', link: 'https://www.instagram.com/ferdagirl09/' },
+      { icon: 'instagram', link: 'https://www.instagram.com/garrettsmith_31/' },
     ]
   },
   {
-    avatar: '/riders/parker-vince_2022.png',
-    name: 'Parker Vince',
+    avatar: '/riders/olivia-pobocik_2023.jpg',
+    name: 'Olivia Pobocik',
     title: '8th Grade',
-    desc: '\"Make everything a jump!!!\"',
     links: [
     //   { icon: 'instagram', link: 'https://www.instagram.com/ferdagirl09/' },
     ]
   },
   {
     avatar: '/riders/olivia-pobocik_2023.jpg',
-    name: 'Olivia Pobocik',
+    name: 'Elias Beck',
     title: '7th Grade',
     links: [
     //   { icon: 'instagram', link: 'https://www.instagram.com/ferdagirl09/' },
