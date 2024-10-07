@@ -36,8 +36,19 @@ export default defineConfig({
         link: 'local-shops'
       },
       {
-        text: '2023',
+        text: '2024',
         collapsed: false,
+        link: '2024/',
+        items: [
+          { text: 'Overview', link: '2024/'},
+          { text: 'Photos', link: '2024/photos'},
+          { text: 'Captains', link: '2024/captains'},
+          { text: 'Coaches', link: '2024/coaches'},
+        ]
+      },
+      {
+        text: '2023',
+        collapsed: true,
         link: '2023/',
         items: [
           { text: 'Overview', link: '2023/'},
