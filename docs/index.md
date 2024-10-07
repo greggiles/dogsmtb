@@ -15,8 +15,8 @@ hero:
       text: About
       link: about
     - theme: alt
-      text: 2023 Season
-      link: 2023/
+      text: 2024 Season
+      link: 2024/
     # - theme: alt
     #   text: Kit Store
     #   link: https://teamstore.ascendsportswear.com/store/brighton-cycling/
