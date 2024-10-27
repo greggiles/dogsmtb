@@ -10,7 +10,32 @@ layout: page
 </template>
 </VPTeamPageTitle>
 
-<a href='https://photos.app.goo.gl/NurqUCbeA4TK6cE49'><img src='/2024/team.jpg' style='border:solid'/><center>Click Here for 2024 Team Pictures</center></a>
+<a href='https://photos.app.goo.gl/NurqUCbeA4TK6cE49'><img src='/2024/team.jpg' style='border:solid'/>
+</a>
+
+<div style="text-align: center; margin-top: 20px;">
+  <a href="https://photos.app.goo.gl/NurqUCbeA4TK6cE49" class="button">Team Pictures</a>
+  <a href="https://photos.app.goo.gl/qXF4BqucgZ8A4qto9" class="button">Individual Pictures</a>
+  <a href="https://photos.app.goo.gl/sj2EyRQonSZ7arGS9" class="button">Outtakes</a>
+</div>
+
+<style>
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 10px;
+  font-size: 16px;
+  color: white;
+  background-color: #007BFF;
+  text-decoration: none;
+  border-radius: 5px;
+}
+.button:hover {
+  background-color: #0056b3;
+}
+</style>
+
+<h1>Race Pictures</h1>
 
   <VPTeamPageSection>
     <!-- <template #title>Our Shops</template> -->
