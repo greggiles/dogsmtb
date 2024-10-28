@@ -4,10 +4,10 @@ layout: page
 <VPTeamPage>
   <VPTeamPageTitle>
     <template #title>
-      2023 Captains
+      2024 Captains
     </template>
     <template #lead>
-      Our Fearless Teamleaders who brought home the ninth consecutive state championship!
+      Our Fearless Teamleaders, always making sure we are having a great time!
     </template>
   </VPTeamPageTitle>
   <VPTeamPageSection>

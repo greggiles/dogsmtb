@@ -13,8 +13,38 @@ We will be hosting a season kickoff meeting at Brighton Highschool on (tenative)
 
 <v-btn href='https://fb.me/e/2vizshZpY'>Facebook Event Details</v-btn> -->
 
+# It's a WRAP
+
+Congrats on a great 2024 season Bulldogs! Be sure to checkout Photos and details about our season!
+
+[]()
+
+<div style="text-align: center; margin-top: 20px;">
+  <a href="https://www.miscabike.org/2024-misca-race-results/" class="button">2024 Race Results</a>
+  <a href="https://photos.app.goo.gl/NurqUCbeA4TK6cE49" class="button">Team Pictures</a>
+  <a href="https://photos.app.goo.gl/qXF4BqucgZ8A4qto9" class="button">Individual Pictures</a>
+  <a href="https://photos.app.goo.gl/sj2EyRQonSZ7arGS9" class="button">Outtakes</a>
+</div>
+
+<style>
+.button {
+  display: inline-block;
+  padding: 10px 10px;
+  margin: 10px;
+  font-size: 16px;
+  text-decoration: none;
+  border-radius: 5px;
+  border-color: black;
+  border-width: 1px;
+}
+.button:hover {
+  background-color: #0056b3;
+}
+</style>
+
 ## Year End Video
 
+Coming SOON!
 
 ## Practice Season
 

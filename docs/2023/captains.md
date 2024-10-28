@@ -7,7 +7,7 @@ layout: page
       2023 Captains
     </template>
     <template #lead>
-      Our Fearless Teamleaders who brought home the ninth consecutive state championship!
+      Our Fearless Teamleaders who brought home the TENTH consecutive state championship!
     </template>
   </VPTeamPageTitle>
   <VPTeamPageSection>
