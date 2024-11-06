@@ -1,6 +1,13 @@
 # 2024
 
-Another great year riding together as Brighton Bulldogs! 
+Congrats on a great 2024 season Bulldogs! Be sure to checkout Photos and details about our season!
+
+<div style="text-align: center; margin-top: 20px;">
+    <v-btn style='margin: 10px' href='https://www.miscabike.org/2024-misca-race-results/'>Race Results</v-btn>
+    <v-btn style='margin: 10px' href='https://photos.app.goo.gl/NurqUCbeA4TK6cE49'>Team Pictures</v-btn>
+    <v-btn style='margin: 10px' href='https://photos.app.goo.gl/qXF4BqucgZ8A4qto9'>Individual Pics</v-btn>
+    <v-btn style='margin: 10px' href='https://photos.app.goo.gl/sj2EyRQonSZ7arGS9'>Outtakes!</v-btn>
+</div>
 
 ## Year End Video
 
