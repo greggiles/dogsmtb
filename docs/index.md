@@ -17,15 +17,22 @@ hero:
     - theme: alt
       text: 2024 Season
       link: 2024/
+    - theme: alt
+      text: 2025 Season
+      link: 2025/
     # - theme: alt
     #   text: Kit Store
     #   link: https://teamstore.ascendsportswear.com/store/brighton-cycling/
-    - theme: alt
-      text: Registation
-      link: https://ccnbikes.com/#!/events/brighton-area-schools-2024
+    # - theme: alt
+    #   text: Registation
+    #   link: https://ccnbikes.com/#!/events/brighton-area-schools-2024
     - theme: alt
       text: Mailing List
       link: https://80fb9a7c.sibforms.com/serve/MUIEAFTKJuKJuOKf8pUtc24hhseqmUWJu4u--cLItdV4EqHB_vqhxCbVxpBEYkW8n0ztdAWrft4TZRzJk9vw3GfNdgOB8eO7Ny3XR5v4Uh18Vbx9jkozKSTc0_ANn6grxFNVCpwK4NTHsfvwGSLRcDt1DebW4ETn2V_p1Aceqgvbe8vCz3a8uC0IHPq-UlRoyUIJn7isBM29Y2nF
+
+
+
+
 features:
   - icon: 
       src: /311002.svg
@@ -40,4 +47,18 @@ features:
     title: Awesome Trails in the Woods
     details: We enjoy fun dirt trails through the woods, over rocks and roots!
 ---
+<br/>
 
+<div data-v-cf6e7c5e="" data-v-9397ee4e="" class="VPNavBar fill">
+  <div data-v-cf6e7c5e="" class="container">
+    <div data-v-cf6e7c5e="" class="title">
+      <div data-v-55e263fd="" data-v-cf6e7c5e="" class="VPNavBarTitle"><a data-v-55e263fd="" class="title"
+          href="/"><!--v-if-->Join our Mailing List</a>
+      </div>
+    </div>
+    <div data-v-cf6e7c5e="" class="content">
+    </div>
+  </div> 
+</div>
+
+<iframe width="80%" height="810" src="https://80fb9a7c.sibforms.com/serve/MUIFAJ1at7K9xxt_7gQQXwb8RqatsfCkECv30KP_MEDsw6BSAvoFsJET30AZiubOeqlMdEJ42V_iLRaUKBUsTDhy2UFzs5ix-rP9ll-G0ddOzE_mF_vHEq0i-_Jwu5wNVtEeeNX6fTqr5TgXQ5aNpT4xo8WLz6VTqyQdH7O-85FME3QyQEuwzbL4ZICQcnZFGq1hTsJFS_gGmraN" frameborder="0" scrolling="auto" allowfullscreen style="display: block;margin-left: auto;margin-right: auto;max-width: 95%;"></iframe>
