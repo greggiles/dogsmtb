@@ -2,14 +2,14 @@
 
 ## Registration
 
-Check back Soon! (Febuary-ish)
+Registration is now OPEN:  <v-btn href='https://www.miscabike.org/misca-race-series/'>Registation Link</v-btn>
 
 ## Practice Season
 
 We will begin practices May 20th! For those new to the team, practice routes and distances vary by group. Each rider is assigned to a group of about 10-15 riders, and the group rides appropriate distance and difficulty for the group.
 
-- Practice #1: May 20th at Island Lake Recreation Area (ILRA)
-- Practice #2: May 22nd at Brighton Recreation Area (BRA)
+- Practice #1: May 27th at Island Lake Recreation Area (ILRA)
+- Practice #2: May 29nd at Brighton Recreation Area (BRA)
 
 ### Typical Practice Schedule
 
