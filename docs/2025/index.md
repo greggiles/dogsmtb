@@ -2,7 +2,7 @@
 
 ## Registration
 
-Registration is now OPEN:  <v-btn href='https://www.miscabike.org/misca-race-series/'>Registation Link</v-btn>
+Registration is now OPEN:  <v-btn href='https://ccnbikes.com/#!/events/brighton-area-schools'>Registation Link</v-btn>
 
 ## Practice Season
 
