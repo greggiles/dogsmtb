@@ -25,7 +25,7 @@ hero:
     #   link: https://teamstore.ascendsportswear.com/store/brighton-cycling/
     - theme: alt
       text: Registation
-      link: https://ccnbikes.com/#!/events/brighton-area-schools
+      link: https://ccnbikes.com/#!/events/brighton-area-schools-2026
     - theme: alt
       text: Mailing List
       link: https://80fb9a7c.sibforms.com/serve/MUIFAFyd4Mj1QOXNTwixDGrpM3AhuuLIt2VsyKgjSRL15DkHaWjdiDOgnubpbTtDNv2o6W3eTTPFmsa-iXa9VAeQ60gs_IsH6SlO2y9oCkr2hRn71M-a3feBjn54jsIQ9GKHpI8PG-cJhqZOajPFdDBbkWpsC7bhPuMDCZpS45DYDtzrbhwbJmvf0iP-ZGTe7ByxX-BgyvL0MPXq
