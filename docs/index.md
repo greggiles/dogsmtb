@@ -24,7 +24,7 @@ hero:
     #   text: Kit Store
     #   link: https://teamstore.ascendsportswear.com/store/brighton-cycling/
     - theme: alt
-      text: "'26 Registation"
+      text: 2026 Registation
       link: https://ccnbikes.com/#!/events/brighton-area-schools-2026
     - theme: alt
       text: Mailing List
